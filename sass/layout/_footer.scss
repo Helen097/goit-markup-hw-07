@@ -7,29 +7,28 @@
   .container-footer {
     display: flex;
   }
-  .container-footer-logo {
+  .container-contacts {
     display: inline-block;
   }
-  .footer-logo {
+  .logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--primary-header-color);
   }
-  span.footer-logo {
+  span.logo-label {
     color: var(--second-logo-color);
   }
-  .footer-info-links {
+  .container-contacts__information {
     margin-top: 20px;
   }
   
-  .footer-list .item + .item {
+  .information__list .information__item + .information__item {
     margin-top: 9px;
   }
-  .footer-link {
+  .information__link {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -42,7 +41,7 @@
   }
   }
   
-  .footer-meilto {
+  .information__meilto {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -53,7 +52,7 @@
     color: var(--second-logo-color);
   }
   }
-  .footer-tel {
+  .information__tel {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -65,12 +64,12 @@
   }
   }
   
-  .footer-soc {
+  .aur-social {
     justify-content: center;
     align-items: center; 
   }
   
-  .footer-soc-title {
+  .aur-social__title {
     @extend %flex-align;
     margin-bottom: 20px;
     margin-left: 70px;
@@ -83,7 +82,7 @@
     text-transform: uppercase;
     color: var(--primary-header-color);
   }
-  .footer-soc-link {
+  .social-media__link {
     width: 100%;
     height: 100%;
     @extend %flex-align;
@@ -97,12 +96,15 @@
       background-color: var(--second-logo-color);
     }
   }
-  .footer-soc-list {
+  .social-media__list {
     @extend %flex-align;
     justify-content: center;
+    
+  }
+  .aur-social__social-media {
     margin-left: 70px;
   }
-  .footer-soc-items {
+  .social-media__items {
     width: 44px;
     height: 44px;
     &:not(:last-child) {
@@ -110,14 +112,14 @@
     }
   }
  
-  .footer-soc-icons {
+  .social-media__icons {
     fill: currentColor;
   }
  
-  .footer-subscribe {
+  .subscribe {
     margin-left: 93px;
   }
-  .footer-subscribe-title {
+  .subscribe__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -126,7 +128,7 @@
     color: #FFFFFF;
     margin-bottom: 20px;
   }
-  .footer-subscribe-input {
+  .search-form__input {
     width: 358px;
     height: 50px;
     padding-left: 16px;
@@ -135,7 +137,7 @@
     background: var(--page-second-background);
     cursor: pointer;
   }
-  .footer-subscribe-btn {
+  .search-form__btn {
     width: 200px;
     height: 50px;
     margin-left: 12px;
@@ -157,7 +159,7 @@
     }
   }
 
-  .footer-subscribe-icon {
+  .search-form__icon {
     fill: var(--primary-header-color);
     margin-left: 10px;
     vertical-align: middle;

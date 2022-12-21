@@ -15,7 +15,7 @@
     clip:rect(0000);
     overflow: hidden;
   }
-  .qualities-icon {
+  .qualities__icon {
     width: 270px;
     height: 120px;
     background-color: var(--button-page-background);
@@ -23,22 +23,22 @@
     justify-content: center;
     @extend %flex-align;
   }
-  .qualities-icon-images {
+  .qualities__images {
   width: 70px;
   height: 70px;
   }
   
   
-  .qualities-list {
+  .qualities__list {
     display: flex;
     flex-basis: calc(100% - 120px)/4;
      margin-right: -30px;
   }
   
-  .qualities-list .qualities-item:not(:last-child){
+  .qualities__list .qualities__item:not(:last-child){
   margin-right: 30px;
   }
-  .qualities-title {
+  .qualities__title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -46,7 +46,7 @@
     color: var(--second-header-color);
     margin-bottom: 10px;
   }
-  .qualities-text {
+  .qualities__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

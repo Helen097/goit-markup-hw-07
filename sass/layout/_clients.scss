@@ -2,7 +2,7 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  .clients-title {
+  .clients-section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -10,11 +10,11 @@
     letter-spacing: 0.03em;
     margin-bottom: 50px;
   }
-  .clients-list {
+  .clients__list {
     justify-content: center;
     @extend %flex-align;
   }
-  .clients-link {
+  .clients__link {
     width: 100%;
     height: 100%;
     @extend %flex-align;
@@ -30,7 +30,7 @@
     border-color: var(--second-logo-color);
     }
   }
-  .clients-items {
+  .clients__items {
     width: 170px;
     height: 92px;
     &:not(:last-child) {
@@ -38,6 +38,6 @@
     }
   }
   
-  .clients-icons {
+  .clients__icons {
     fill: currentColor;
   }

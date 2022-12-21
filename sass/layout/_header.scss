@@ -8,10 +8,10 @@ header .container {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--logo-color);
+    // color: var(--logo-color);
   }
   
-  span.header-logo {
+  span.logo-label {
     color: var(--second-logo-color);
   }
   .navigation {
@@ -38,6 +38,9 @@ header .container {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
+      color: var(--second-logo-color);
+    }
+    &.current {
       color: var(--second-logo-color);
     }
   }

@@ -1,8 +1,8 @@
-    .work-section {
+    .work__section {
     padding-bottom: 94px;
     }
     
-    .work-title {
+    .work__title {
       font-weight: 700;
       font-size: 36px;
       line-height: 1.17;
@@ -12,14 +12,15 @@
       margin-bottom: 50px;
     }
    
-    .work-list {
+    .work__list {
       display: flex;
       flex-basis: calc(100% - 60px)/3;
+      & .work__item:not(:last-child) {
+        margin-right: 30px;
+      }
     }
-    .work-list .work-item:not(:last-child) {
-      margin-right: 30px;
-    }
-    .work-text {
+    
+    .work__text {
       position: absolute;
       bottom: 0;
       padding-top: 27px;
@@ -35,6 +36,6 @@
       color: var(--primary-header-color);
       background-color: rgba(47, 48, 58, 0.8);;
     }
-    .work-item {
+    .work__item {
       position: relative;
     }
