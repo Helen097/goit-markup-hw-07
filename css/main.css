@@ -135,9 +135,8 @@ span.logo-label {
 }
 
 .contact {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
-  align-items: center;
   margin-left: auto;
 }
 
@@ -149,13 +148,11 @@ span.logo-label {
   fill: currentColor;
   margin-right: 10px;
 }
-.contact__icon:focus {
-  fill: var(--second-logo-color);
-}
 
 .contact__mail,
 .contact__tel {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
